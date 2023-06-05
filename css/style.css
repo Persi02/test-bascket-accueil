@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+    width: 74px;
+    height: 50px;
+    margin-left: 97px;
+
+}
+
+.menu {
+    margin-right: 55px;
+}
+
+.menu a {
+    margin-right: 42px;
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    padding: 30px 97px 30px 97px;
+
+
+}
+
+.sec-1 {
+    display: flex;
+}
+
+.art-1 {
+    width: 843px;
+    height: 422px;
+    background-color: #D9D9D9;
+}
+
+.carré {
+    width: 403px;
+    height: 422px;
+    background-color: #A9A5A5;
+}
+
+h1 {
+    font-family: sans-serif;
+    position: absolute;
+    width: 225px;
+    height: 85px;
+    left: 140px;
+    top: 410px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 85px;
+    color: #000000;
+}
+
+.second-title {
+
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+
+.sec-2,
+.sec-3 {
+    display: flex;
+}
+
+.art-2 {
+
+    width: 608px;
+    height: 310px;
+    background: #D9D9D9;
+}
+
+h3 {
+
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+
+}
+
+.products-1 {
+    position: relative;
+    left: 31px;
+    top: 240px;
+}
+
+.art-3 {
+    margin-left: 24px;
+    width: 292px;
+    height: 310px;
+    top: 711px;
+    background: #D9D9D9;
+}
+
+.products-2 {
+    position: relative;
+    top: 240px;
+    left: 31px;
+}
+
+.art-31 {
+    width: 292px;
+    height: 310px;
+    top: 711px;
+    background: #D9D9D9;
+}
+
+.art-4 {
+    width: 100%;
+    background: #D9D9D9;
+    height: 310px;
+    margin-top: 79px;
+    display: flex;
+    align-items: center;
+}
+
+div.image {
+    width: 50%;
+    height: 310px;
+    background: #A9A5A5;
+}
+
+.products-4 {
+    position: relative;
+    left: 105px;
+}
+
+footer {
+    height: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 16px;
+}
