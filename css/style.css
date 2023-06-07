@@ -20,6 +20,22 @@ nav {
 
 }
 
+.box-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.big-box {
+    grid-column: span 3 / span 3;
+}
+
+.box {
+    height: 200px;
+    width: 100%;
+    background-color: #000000;
+}
+
 .menu {
     margin-right: 55px;
 }
@@ -32,6 +48,8 @@ nav {
 
 main {
     padding: 30px 97px 30px 97px;
+
+
 
 
 }
@@ -148,6 +166,14 @@ div.image {
 .products-4 {
     position: relative;
     left: 105px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
 }
 
 footer {
