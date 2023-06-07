@@ -1,185 +1,145 @@
 * {
+    list-style: none;
+    text-decoration: none;
     margin: 0;
     padding: 0;
 }
 
-nav {
-    width: 100%;
-    height: 100px;
-    background-color: #D9D9D9;
+main {
+    padding: 0 100px;
+}
+
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    height: 100px;
 }
 
 .logo {
-    width: 74px;
     height: 50px;
-    margin-left: 97px;
-
+    width: 74px;
+    margin-left: 50px;
 }
 
-.box-wrap {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 20px;
-}
-
-.big-box {
-    grid-column: span 3 / span 3;
-}
-
-.box {
-    height: 200px;
-    width: 100%;
-    background-color: #000000;
-}
-
-.menu {
-    margin-right: 55px;
-}
-
-.menu a {
-    margin-right: 42px;
-    text-decoration: none;
-    color: black;
-}
-
-main {
-    padding: 30px 97px 30px 97px;
-
-
-
-
-}
-
-.sec-1 {
+.nav {
     display: flex;
+    align-items: center;
 }
 
-.art-1 {
-    width: 843px;
-    height: 422px;
+.nav a {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000;
+    margin-right: 42px;
+}
+
+
+
+.section-title {
+    font-weight: 400;
+    font-size: 36px;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.card {
+    height: 260px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
     background-color: #D9D9D9;
+    padding: 0 0 41px 31px;
+    margin-bottom: 75px;
 }
 
-.carré {
-    width: 403px;
-    height: 422px;
-    background-color: #A9A5A5;
+.text-card {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
 }
 
-h1 {
-    font-family: sans-serif;
-    position: absolute;
-    width: 225px;
-    height: 85px;
-    left: 140px;
-    top: 410px;
-    font-style: normal;
+.title {
     font-weight: 400;
     font-size: 70px;
     line-height: 85px;
     color: #000000;
+    margin-bottom: 100px
 }
 
-.second-title {
-
-
-    font-family: sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 44px;
-    color: #000000;
-    margin-top: 100px;
-    margin-bottom: 15px;
+.section {
+    margin-bottom: 79px;
 }
 
-.sec-2,
-.sec-3 {
+.hero-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-bottom: 100px;
+    height: 100vh;
+}
+
+.hero {
+    grid-column: span 2 / span 2;
+    background-color: #D9D9D9;
+    height: 100%;
     display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 0 0 40px;
 }
 
-.art-2 {
-
-    width: 608px;
-    height: 310px;
-    background: #D9D9D9;
-}
-
-h3 {
-
-
-    font-family: sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-    color: #000000;
-
-}
-
-.products-1 {
-    position: relative;
-    left: 31px;
-    top: 240px;
-}
-
-.art-3 {
-    margin-left: 24px;
-    width: 292px;
-    height: 310px;
-    top: 711px;
-    background: #D9D9D9;
-}
-
-.products-2 {
-    position: relative;
-    top: 240px;
-    left: 31px;
-}
-
-.art-31 {
-    width: 292px;
-    height: 310px;
-    top: 711px;
-    background: #D9D9D9;
-}
-
-.art-4 {
+.hero-box {
     width: 100%;
-    background: #D9D9D9;
-    height: 310px;
-    margin-top: 79px;
-    display: flex;
-    align-items: center;
+    height: 100%;
+    background-color: #A9A5A5;
 }
 
-div.image {
-    width: 50%;
-    height: 310px;
+.card-wrap {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 24px;
+}
+
+.big-card {
+    grid-column: span 2 / span 2;
+}
+
+.baner-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #D9D9D9;
+    height: 260px;
+}
+
+.card-black {
+    width: 100%;
+    height: 260px;
     background: #A9A5A5;
 }
 
-.products-4 {
-    position: relative;
-    left: 105px;
-}
 
-ul {
-    display: flex;
-}
-
-li {
-    list-style: none;
+.text-baner {
+    margin: auto 20%;
+    width: 175px;
+    height: 44px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 36px;
+    line-height: 44px;
 }
 
 footer {
-    height: 115px;
+    height: 200px;
     display: flex;
-    justify-content: center;
     align-items: flex-end;
-    padding-bottom: 16px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.text-saha {
+    font-family: sans-serif;
+    font-style: normal;
+
 }
